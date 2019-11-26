@@ -8,4 +8,5 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class YoutubeApiProperties {
 
     private String key;
+    private String applicationName;
 }
