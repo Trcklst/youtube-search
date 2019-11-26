@@ -1,10 +1,10 @@
-package com.trklst.youtubesearch.configurations;
+package com.trcklst.youtubesearch.configurations;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Data
-@ConfigurationProperties("trklst.youtube.api")
+@ConfigurationProperties("trcklst.youtube.api")
 public class YoutubeApiProperties {
 
     private String key;

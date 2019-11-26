@@ -1,9 +1,9 @@
-package com.trklst.youtubesearch.core;
+package com.trcklst.youtubesearch.core;
 
 import com.google.api.services.youtube.model.SearchListResponse;
 import com.google.api.services.youtube.model.SearchResult;
-import com.trklst.youtubesearch.core.dto.out.SearchDto;
-import com.trklst.youtubesearch.core.dto.out.SearchDtoItem;
+import com.trcklst.youtubesearch.core.dto.out.SearchDtoItem;
+import com.trcklst.youtubesearch.core.dto.out.SearchDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

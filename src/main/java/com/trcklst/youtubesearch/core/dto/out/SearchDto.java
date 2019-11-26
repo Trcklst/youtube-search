@@ -1,4 +1,4 @@
-package com.trklst.youtubesearch.core.dto.out;
+package com.trcklst.youtubesearch.core.dto.out;
 
 import lombok.Data;
 

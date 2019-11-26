@@ -1,7 +1,7 @@
-package com.trklst.youtubesearch.core;
+package com.trcklst.youtubesearch.core;
 
-import com.trklst.youtubesearch.core.dto.SearchIn;
-import com.trklst.youtubesearch.core.dto.out.SearchDto;
+import com.trcklst.youtubesearch.core.dto.out.SearchDto;
+import com.trcklst.youtubesearch.core.dto.SearchIn;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,4 +1,4 @@
-package com.trklst.youtubesearch;
+package com.trcklst.youtubesearch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
