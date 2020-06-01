@@ -3,7 +3,7 @@
 * Use :
 
 ```
-POST {host}/youtube-search/api/youtube/search
+POST {host}:{port}/api/youtube/search
 Content-Type: application/json
 
 {

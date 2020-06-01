@@ -22,8 +22,9 @@ public class YoutubeService {
     private final static String VIDEO_TYPE = "video";
 
     SearchDto search(SearchIn searchIn) throws IOException {
-        YouTube.Search.List request = youTube.search().list("snippet");
-        SearchListResponse searchListResponse = request.setMaxResults(searchIn.getItemsNumber())
+        SearchListResponse searchListResponse = youTube.search()
+                .list("snippet")
+                .setMaxResults(searchIn.getItemsNumber())
                 .setQ(searchIn.getQuery())
                 .setOrder(ORDER_BY_VIEWS_NUMBER)
                 .setKey(youtubeApiProperties.getKey())
